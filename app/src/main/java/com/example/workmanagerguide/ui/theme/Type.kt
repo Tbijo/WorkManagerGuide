@@ -1,4 +1,4 @@
-package com.plcoding.workmanagerguide.ui.theme
+package com.example.workmanagerguide.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

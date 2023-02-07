@@ -1,0 +1,22 @@
+WorkManager is for tasks to be executed reliably and fully. Even if app is in background, closed or
+the device was restarted.
+
+In work manager there are three different tasks:
+Immediate tasks - tasks that need to be done immediately, that will finish soon
+Long-running tasks - tasks that run long (large file download)
+Differable tasks - tasks not to be done immediately, they are scheduled at a later point
+                 - workmanager schedules them, and makes them one-time or repeatable
+                    (example if app needs to sync with server every hour, workmanager will do the task
+                    with out the user needing to launch the app)
+                 - all these workmanager tasks are stored in a database so they will execute even at restart
+
+If a scheduled task requires Internet access and on execution the user does not provide it. WorkManager
+will save the task and execute when internet will be available.
+
+Application description
+Download a large image from a website - workmanager task
+Save the image in internal storage
+Apply a color filter on the image - workmanager task (because image processing is a cpu heavy process)
+add artificial delay
+
+

@@ -1,4 +1,4 @@
-package com.plcoding.workmanagerguide
+package com.example.workmanagerguide
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

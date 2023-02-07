@@ -1,4 +1,4 @@
-package com.plcoding.workmanagerguide.ui.theme
+package com.example.workmanagerguide.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

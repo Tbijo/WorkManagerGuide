@@ -1,4 +1,4 @@
-package com.plcoding.workmanagerguide
+package com.example.workmanagerguide
 
 import org.junit.Test
 
